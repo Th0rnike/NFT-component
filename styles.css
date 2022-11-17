@@ -1,0 +1,153 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0D192C;
+    box-sizing: border-box;
+}
+
+ .main-div{
+    max-width: 350px;
+    background-color: #15263F;
+    border-radius: 15px;
+}
+
+.inside-div{
+    margin: 24px;
+}
+
+.card-image{
+    width: 302px;
+    height: 302px;
+    border-radius: 14px;
+}
+
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.tvali{
+    position: absolute;
+    z-index: -1;
+    width: 302px;
+    height: 302px;
+}
+
+.eye-image{
+    position: relative;
+    left: 41%;
+    top: 43%;
+    z-index: -1;
+    width: 56px;
+    height: 56px;
+}
+
+.img-div:hover .tvali{
+    z-index: 1;
+    background-color: #00FFF8;
+    border-radius: 8px;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+h1{
+    color: white;
+    font-size: 22px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    line-height: 27.72px;
+}
+
+h1:hover{
+    color: #00FFF8;
+}
+
+p{
+    color: #8BACD9;
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Outfit', sans-serif;
+    margin: 16px 0px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.avatar{
+    width: 33px;
+    height: 33px;
+    border: solid white 1px;
+    border-radius: 50%;
+}
+
+.footer{
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.central-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+hr{
+    height: 1px;
+    color: #2E405A;
+    border-top: solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+} 
+
+.eth{
+    font-weight: 600;
+    color: #00FFF8;
+}
+
+.clock{
+    font-weight: 400;
+}
+
+.bot{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+strong{
+    color: white;
+    font-weight: 400;
+}
+
+strong:hover{
+    color: #00FFF8;
+}
+
+.left, .right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.left > p{
+    margin-left: 6.5px;
+}
+
+.right > img{
+    margin-right: 8px;
+}
+
+.main_paragraph{
+    margin: 0px 0px;
+}
+
+
+@media screen and (max-width: 375px){
+    body{
+        padding: 62px 24px;
+    }
+}
